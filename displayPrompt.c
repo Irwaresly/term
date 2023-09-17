@@ -1,7 +1,10 @@
 #include "main.h"
 
-void displayPrompt() 
+/**
+ *displayPrompt - this function displays prompt to the user
+ */
+void displayPrompt(void)
 {
-    char *prompt = "$ ";
-    printf("%s", prompt);
+char *prompt = "$ ";
+printf("%s", prompt);
 }
